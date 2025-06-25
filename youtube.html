@@ -2,13 +2,45 @@
 <html lang="en">
 <head>
     <title>Rajnish's YouTube clone</title>
+
     <link rel="stylesheet" href="youtube_design.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="general.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <input class="search_bar" type="text" placeholder="Search">
+
+    <div class="header">
+
+        <div class="left_section">
+            <img class="menu" src="images/menu.svg">
+            <img class="youtube_logo" src="images/youtube-logo.svg">
+        </div>
+
+        <div class="middle_section">
+            <input class="search_bar" type="text" placeholder="Search">
+            <button class="search_button"><img class="search_button_image" src="/images/search.svg"></button>
+            <button class="voice_button"><img class="voice_button_image" src="/images/voice-search-icon.svg"></button>
+        </div>
+
+        <div class="right_section">
+            <button class="upload">
+                <img class="upload_img" src="images/upload.svg">
+            </button>
+            <button class="notifications">
+                <img class="notifications_img" src="images/notifications.svg">
+            </button>
+            <button class="user_pfp">
+                <img class="user_pfp_img" src="images/my_pfp.jpg">
+            </button>
+            
+        </div>
+        
+    </div>
+    
 
     <div class="main_grid">
         <div class="video_preview">
